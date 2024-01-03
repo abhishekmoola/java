@@ -11,12 +11,13 @@ public class A {
 	
 	public interface NestedInterfaceEx{
 		 boolean isOdd(int a);
+		 
 	}
 
 }
 
 class B implements A.NestedInterfaceEx{
-
+  
 	@Override
 	public boolean isOdd(int a) {
 		

@@ -1,5 +1,7 @@
 package com.java.innterfaceexample;
 
+import java.util.ArrayList;
+
 public class MainClassInterface {
 	public static void main(String[] args) {
 //		Car car  = new Car();
@@ -13,7 +15,12 @@ public class MainClassInterface {
 		// so we need to write a classes for each and every interfaces'\
 //		Media media = new Car();
 //		media.start();
+		//ArrayList<?> a = new ArrayList();
 		
+		//wrapper class ex it will conert primitive data type to an object
+		String s = "123";
+		int a = Integer.parseInt(s);
+		System.out.println("wrapper class " + s);
 		
 		TeslaCar tCar = new TeslaCar();
 		tCar.start();
